@@ -24,33 +24,6 @@ public class FileAccessService implements DataAccessService {
 
 
 
-//	// got this from stack overflow CITATION
-//	public static void clearTheFile() throws IOException {
-//		FileWriter fwOb = new FileWriter("in.txt", false);
-//		PrintWriter pwOb = new PrintWriter(fwOb, false);
-//		pwOb.flush();
-//		pwOb.close();
-//		fwOb.close();
-//	}
-
-//	// Process of getting the user input contacts in the text file
-//	public static void TestUser() throws IOException {
-//		PersonContact pContact = new PersonContact(" ", " ", "", "", "", "", "", "");
-//
-//		ArrayList<PersonContact> arrli = new ArrayList<PersonContact>();
-//
-//		arrli.add(pContact);
-//		for (PersonContact pc : arrli) {
-//			String output5 = pc.getNewname() + " | " + pc.getNewcity() + " | " + pc.getNewstate()					
-//								
-//					+ " | " + pc.getNewpostal() + " | " + pc.getNewcountry() + " | " + pc.getNewphoneNumber()
-//				
-//					
-//					+ " | " + pc.getNewemail() + " | " + pc.getNickName();
-//			saveToFile("in.txt", output5, true);
-//		}
-//
-//	}
 
 	public static void LoadRecords() throws IOException {
 
@@ -110,27 +83,7 @@ public class FileAccessService implements DataAccessService {
 
 	}
 
-//	public static  void writeAllData(AddressBook theList) throws IOException {
-
-//		ObjectMapper om = new ObjectMapper();
-//		try {
-//			
-//		om.writeValue(new File("testing.json"), theList);
-//	} catch (JsonGenerationException e) {
-//		e.printStackTrace();
-//	} catch (JsonMappingException e) {
-//				
-//	} catch (IOException e) {
-//		e.printStackTrace();
-//	}
-
-//		clearTheFile();
-//		for (BaseContact ba : theList.theList) {
-//			saveToFile("in.txt", , true);
-//			
-//			
-//		}
-//	}
+/
 	public boolean saveAllContacts() {
 		
 		return false;
